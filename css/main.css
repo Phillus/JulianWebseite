@@ -65,6 +65,10 @@ h2 {
   background:rgba(0,0,0,0.8);
 }
 
+.mitglieder {
+  margin-bottom:5px;
+}
+
 #normal {
   clear:left;
 }
