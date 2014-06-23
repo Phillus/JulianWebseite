@@ -99,3 +99,16 @@ a {
 #guenter {
   padding-left:20px;
 }
+
+#lightGallery {
+  list-style: none;
+  padding: 0;
+}
+
+#lightGallery li {
+  display: inline-block;
+}
+
+#lightGallery li img {
+  width: 50px;
+}
