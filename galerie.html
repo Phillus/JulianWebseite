@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <title>Jahresprojekt</title>
+    <link type="text/css" rel="stylesheet" href="css/lightGallery.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/lightGallery.js"></script>
+    // Do not include both lightGallery.js and lightGallery.min.js
+  </head>
+  
+  <body>
+    
+    <div id="background">
+    </div>
+    
+    <div id="content">
+      
+      <div id="header">
+        <a href="index.html">
+          <img src="Bilder/header.jpg" height="180" />
+        </a>
+      </div>
+      
+      <div id="navigation">
+        <div class="navi">
+          <a href="index.html">
+            Startseite
+          </a>
+        </div>
+        <div class="navi">
+          <a href="verein.html">
+            Der Verein
+          </a>
+        </div>
+        <div class="navi">
+          <a href="mitglieder.html">
+            Mitglieder
+          </a>
+        </div>
+        <div class="navi">
+          <a href="ausfahrten.html">
+            Ausfahrten
+          </a>
+        </div>
+        <div class="navi">
+          <a href="galerie.html">
+            Galerie
+          </a>
+        </div>
+        <div class="navi" style="margin-right:0;">
+          <a href="impressum.html">
+            Impressum
+          </a>
+        </div>
+        <div id="normal">
+        </div>
+      </div>
+      
+      <div id="textrahmen">
+        
+        <ul id="lightGallery">
+          <li data-src="Bilder/freestyle.jpg">
+            <img src="Bilder/freestyle.jpg" />
+          </li>
+          <li data-src="Bilder/syncro.jpg">
+            <img src="Bilder/syncro.jpg" />
+          </li>
+          <li data-src="Bilder/freeride.jpg">
+            <img src="Bilder/freeride.jpg" />
+          </li>
+          <li data-src="Bilder/ski2.jpg">
+            <img src="Bilder/ski2.jpg" />
+          </li>
+          <li data-src="Bilder/ski3.jpg">
+            <img src="Bilder/ski3.jpg" />
+          </li>
+          <li data-src="Bilder/ski4.jpg">
+            <img src="Bilder/ski4.jpg" />
+          </li>
+          <li data-src="Bilder/mitglieder.jpg">
+            <img src="Bilder/mitglieder.jpg" />
+          </li>
+        </ul>
+        
+        <h2>Galerie</h2>
+        
+        <iframe width="560" height="315" src="//www.youtube.com/embed/XUDe8-aaSR8" frameborder="0" allowfullscreen></iframe>
+        
+        <!--<div id="profilbild">
+<img src="Bilder/portrait.JPG" width="200"/>
+<div id="guenter">
+Julian Scheuermann
+</div>
+</div>-->
+        
+      </div>
+      
+    </div>
+    
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#lightGallery").lightGallery();
+      });
+    </script>
+    
+  </body>
+</html>
